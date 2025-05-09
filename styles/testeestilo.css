@@ -1,0 +1,435 @@
+body {
+    background: black;
+}
+
+#titulo{
+    text-align:center;
+    color: white;
+}
+
+#titulo.alt {
+    font-size: 200px ;
+}
+
+#titulo2{
+    text-align:center;
+    color: white;
+}
+
+#titulo2.alt {
+    font-size: 200px ;
+}
+
+#inicio {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    font-size: 30px ;
+    left: 600px;
+    top: 400px;
+    color: white;
+    background-color:black;
+    border: white;
+    cursor:pointer;
+}
+
+body.fundopresente {
+    background-color: #ffd000;
+}
+
+#presente1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 745px;
+    top: 350px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#presente.fade {
+    display: none;
+}
+
+.sombra1 {
+    position: absolute;
+    height:100px;
+    width: 200px;
+    background: #e7bd01;
+    border-radius: 50%;
+    display: inline-block;
+    left: 750px;
+    top: 450px;
+    z-index: 0;
+}
+
+#pe {
+    color: white;
+    position: absolute;
+    top: 885px;
+}
+
+#pergunta{
+    text-align:center;
+    color: white;
+    z-index: 1;
+    font-size: 30px;
+    position: absolute;
+    left: 650px;
+    top: 350px;
+}
+
+#txtsim1 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao1 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim1.fade {
+    display: none;
+}
+
+#txtnao1.fade {
+    display: none;
+}
+
+#txtsim2 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao2 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim2.fade {
+    display: none;
+}
+
+#txtnao2.fade {
+    display: none;
+}
+
+#txtsim3 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao3 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim3.fade {
+    display: none;
+}
+
+#txtnao3.fade {
+    display: none;
+}
+
+#txtsim4 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao4 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim4.fade {
+    display: none;
+}
+
+#txtnao4.fade {
+    display: none;
+}
+
+#txtsim5 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao5 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim5.fade {
+    display: none;
+}
+
+#txtnao5.fade {
+    display: none;
+}
+
+#txtsim6 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao6 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim6.fade {
+    display: none;
+}
+
+#txtnao6.fade {
+    display: none;
+}
+
+#txtsim7 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#txtnao7 {
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: solid;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    left: 300px;
+}
+
+#txtsim7.fade {
+    display: none;
+}
+
+#txtnao7.fade {
+    display: none;
+}
+#alternativas {
+    position: absolute;
+    left: 580px;
+    top: 500px;
+}

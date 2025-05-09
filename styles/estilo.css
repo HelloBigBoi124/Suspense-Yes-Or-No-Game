@@ -1,0 +1,307 @@
+/* Estilo Global */
+body {
+    background: #fa7ccc;
+    font: normal 15pt Arial;
+}
+
+header {
+    color:white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397)
+    
+}
+
+footer {
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+
+ 
+    /*Botão para iniciar a barra de carregamento*/
+
+
+    /*Barra de carregamento*/
+        #barra {
+            background-color: #4caf50;
+            width: 0%;
+            height:30px;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+            border-radius: 10px;
+            opacity: 1;
+            transition: opacity 0.8s ease-in;
+            grid-area: overlap;
+            justify-self:center;
+            align-self:center;
+        }
+        
+        #barra.fade {
+            opacity: 0;
+        }
+
+        .progress_container {
+            width: 100%;
+            background-color: #202020;
+            border-width: 10px;
+            grid-area: overlap;
+            justify-self:center;
+            align-self:center;
+        }
+
+        #presente {
+            position: absolute;
+            left: 660px;
+            top:110px;
+            opacity: 0;
+            
+            transition: opacity 2s ease-out;
+        }
+
+        #presente.fade {
+            opacity: 1;
+        }
+     
+        #barreira1 {
+            position: absolute;
+            background-color: #ff69b4;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: -17px;
+            top: -75px;
+        }
+
+        #barreira2 {
+            position: absolute;
+            background-color: #ff69b4;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: 1244px;
+            top: -75px;
+        }
+
+        #barreira3 {
+            position: absolute;
+            background-color: #e44f9c;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: -100px;
+            top: -75px;
+        }
+
+        #barreira4 {
+            position: absolute;
+            background-color: #e44f9c;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: 1330px;
+            top: -75px;
+        }
+
+        #barreira5 {
+            position: absolute;
+            background-color: #c93384;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: -185px;
+            top: -75px;
+        }
+
+        #barreira6 {
+            position: absolute;
+            background-color: #c93384;
+            width: 400px;
+            height:1000px;
+            z-index: 1;
+            left: 1418px;
+            top: -75px;
+        }
+
+        #branco1 {
+            position: absolute;
+            background-color: #ffffff;
+            width: 100px;
+            height:875px;
+            z-index: 1;
+            left: 49px;
+            top: 10px;
+            border-radius: 200px;
+        }
+
+        #branco2 {
+            position: absolute;
+            background-color: #ffffff;
+            width: 100px;
+            height:875px;
+            z-index: 1;
+            left: 1473px;
+            top: 10px;
+            border-radius: 200px;
+        }
+
+        .coracaoleft {
+            z-index: 1;
+            position: absolute;
+            font-size: 50px;
+            left: 65px;
+            top: 8px;
+        }
+
+        .coracaoright {
+            z-index: 1;
+            position: absolute;
+            font-size: 50px;
+            left: 1490px;
+            top: 8px;
+        }
+    /*Imagens que vão passar*/
+        
+        #slider {
+            position: absolute;
+            top: 250px;
+            left: 250px;
+
+        }
+    
+        p {
+            position:absolute;
+            display: none;
+        }
+    
+        .parque {
+            border-radius: 30px;
+        }
+
+        .viagem {
+            border-radius: 30px;
+        }
+
+        .gatinhas {
+            background-color: #ffffff;
+            border-radius: 30px;
+        }
+
+        .halloween {
+            border-radius: 30px
+        }
+
+        .solelua {
+            transform: rotate(-90deg);
+            border-radius: 30px;
+        }
+
+        .pulseiras {
+            border-radius: 30px;
+        }
+
+        .mimindo {
+            border-radius: 30px;
+        }
+
+        .favoritajeni {
+            border-radius: 30px;
+        }
+
+        .favoritaheitor {
+            border-radius: 30px
+        }
+
+        .cachorro {
+            border-radius: 30px;
+        }
+
+        .metalancia {
+            border-radius: 30px;
+        }
+
+        #carregar {
+            top: -15px;
+            grid-area: overlap;
+            justify-self:center;
+            align-self:center;
+            width: 220px;
+            height: 50px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #111;
+            cursor: pointer;
+            position: absolute;
+            z-index: 0;
+            border-radius: 10px;
+        }
+        
+        #carregar:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+        
+        #carregar:active {
+            color: #000
+        }
+        
+        #carregar:active:after {
+            background: transparent;
+        }
+        
+        #carregar:hover:before {
+            opacity: 1;
+        }
+        
+        #carregar:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #111;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+        
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
+        #carregar {
+            width: 220px;
+            height: 50px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #111;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+            margin: 0 auto; /* Centraliza horizontalmente */
+            display: block; /* Transforma o botão em bloco para aplicar margem automaticamente */
+        }
